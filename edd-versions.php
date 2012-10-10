@@ -45,7 +45,7 @@ function themeblvd_eddv_init(){
 	
 	// Show Version number with [download_history] table
 	add_action( 'edd_download_history_header_end', 'themeblvd_eddv_downloads_th' );
-	add_action( 'edd_download_history_row_end', 'themeblvd_eddv_downloads_td', 10, 2 ); // @requires EDD v1.2.3+
+	add_action( 'edd_download_history_row_end', 'themeblvd_eddv_downloads_td', 10, 2 ); // @requires EDD v1.3+
 	
 }
 add_action( 'plugins_loaded', 'themeblvd_eddv_init' );
