@@ -10,6 +10,8 @@ This plugin adds version numbers to your downloadable software products in Easy 
 
 When using the [Easy Digital Downloads](http://wordpress.org/extend/plugins/easy-digital-downloads/) plugin to create an online store that sells digital downloads, this plugin will allow you to attach a version number to each of your products.
 
+**NOTE: This plugin requires Easy Digital Downloads v1.3+**
+
 = What does this plugin do, exactly? =
 
 This is a simple plugin that essentially does two things.
