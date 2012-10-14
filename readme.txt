@@ -8,7 +8,7 @@ This plugin adds version numbers to your downloadable software products in Easy 
 
 == Description ==
 
-When using the [Easy Digital Downloads](http://wordpress.org/extend/plugins/easy-digital-downloads/) plugin to create an online store that sells digital downloads, this plugin will allow you to attach a version number to each of your product.
+When using the [Easy Digital Downloads](http://wordpress.org/extend/plugins/easy-digital-downloads/) plugin to create an online store that sells digital downloads, this plugin will allow you to attach a version number to each of your products.
 
 = What does this plugin do, exactly? =
 
@@ -19,7 +19,7 @@ This is a simple plugin that essentially does two things.
 
 = What about the EDD Software Licensing addon? =
 
-To avoid redunancy, if you're using the [EDD Software Licensing](https://easydigitaldownloads.com/extension/software-licensing/) addon, which already allows you to input a version number, this EDD Versions plugin will not add its "Version" field. And instead, your version number setup with the EDD Software Licensing addon will get outputted in the table outputted with `[download_history]`.
+To avoid redunancy, if you're using the [EDD Software Licensing](https://easydigitaldownloads.com/extension/software-licensing/) addon, which already allows you to input a version number, this EDD Versions plugin will not add its "Version" field. And instead, your version number setup with the EDD Software Licensing addon will get used in the table outputted with `[download_history]`.
 
 == Installation ==
 
