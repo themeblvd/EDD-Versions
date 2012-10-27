@@ -2,7 +2,7 @@
 /*
 Plugin Name: EDD Versions
 Description: This plugin adds version numbers to your downloadable software products in Easy Digital Downloads.
-Version: 1.0.0
+Version: 1.0.1
 Author: Jason Bobich
 Author URI: http://jasonbobich.com
 License: GPL2
@@ -38,7 +38,7 @@ function themeblvd_eddv_init(){
 	
 	// If EDD Software Licensing plugin isn't installed, 
 	// then add a Version option to EDD's metabox.
-	if( ! class_exists( 'EDD_SL_Plugin_Updater' ) ){
+	if( ! class_exists( 'EDD_Software_Licensing' ) ){
 		add_action( 'edd_meta_box_fields', 'themeblvd_eddv_option', 21 );
 		add_filter( 'edd_metabox_fields_save', 'themeblvd_eddv_save' );
 	}
