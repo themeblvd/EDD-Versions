@@ -25,7 +25,7 @@ License: GPL2
 
 */
 
-define( 'TB_EDDV_PLUGIN_VERSION', '1.0.0' );
+define( 'TB_EDDV_PLUGIN_VERSION', '1.0.1' );
 define( 'TB_EDDV_PLUGIN_FILE', __FILE__ );
 
 /**
