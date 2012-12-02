@@ -5,6 +5,8 @@ Description: This plugin adds version numbers to your downloadable software prod
 Version: 1.0.1
 Author: Jason Bobich
 Author URI: http://jasonbobich.com
+Text Domain: tb_edd_versions
+Domain Path: languages
 License: GPL2
 
     Copyright 2012  Jason Bobich
@@ -24,6 +26,14 @@ License: GPL2
     http://www.gnu.org/licenses/gpl-2.0.html
 
 */
+
+/* PHP Hack to Get Plugin Headers in the .POT File */
+	$tb_edd_versions_plugin_header_translate = array(
+		__( 'EDD Versions', 'tb_edd_versions' ),
+    	__( 'This plugin adds version numbers to your downloadable software products in Easy Digital Downloads.', 'tb_edd_versions' ),
+    	__( 'Jason Bobich', 'tb_edd_versions' ),
+    	__( 'http://jasonbobich.com', 'tb_edd_versions' ),
+    );
 
 define( 'TB_EDDV_PLUGIN_VERSION', '1.0.1' );
 define( 'TB_EDDV_PLUGIN_FILE', __FILE__ );
